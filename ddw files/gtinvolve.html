@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get Involved</title>
+	<link rel="shortcut icon" href="images/er.png" />
+	<link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+	<div id="main">
+	<div class="get-involve">
+		<form method="post" action="action.php">
+			<a href="index.html"><img class="bk" src="images/back.png" alt="back-button"></a>
+			<h1>Get Involved</h1>
+			<img src="images/foun.png" alt="foundation_us">
+			<p>
+				<label>First Name: </label>
+				<input type="text" name="usr-name"  required autocomplete="off">
+			</p>
+
+			<p>
+				<label>Last Name: </label>
+				<input type="text" name="usr-lname"  required autocomplete="off">
+			</p>
+
+			<p>
+				<label>Address: </label>
+				<input type="text" name="usr-add">
+			</p>
+
+			<p>
+				<label>Phone: </label>
+				<input type="number" name="usr-phone" max="9999999999" min="1000000000">
+			</p>
+
+			<p>
+				<label>Gender: </label>
+				<input type="radio" name="gender" value="Male">
+				<label class="opt">Male</label>
+				<input type="radio" name="gender" value="Female">
+				<label class="opt">Female</label>
+				<input type="radio" name="gender" value="Other">
+				<label class="opt">Other	</label>
+			</p>
+
+			<p>
+				<label>Country: </label>
+				<select name="country">
+					<option value="Nepal">Nepal</option>
+					<option value="China">India</option>
+					<option value="India">China</option>
+
+
+				</select>
+			</p>
+
+			<p>
+				<label>Email: </label>
+				<input type="email" name="usr-email" required autocomplete="off">
+			</p>
+
+			<p>
+				<label>Username: </label>
+				<input type="text" name="usr-acc" required autocomplete="off">
+			</p>
+
+			<p>
+				<label>Password: </label>
+				<input type="password" name="usr-pwd" required autocomplete="off">
+			</p>
+
+			<p>
+				<label>Comments: </label>
+				<textarea name="comments" cols="50" rows="4"></textarea>
+			</p>
+			
+			<div class="login">
+				<input type="button" class="log" name="button" value="Sign-Up">
+			</div>
+		</form>
+		</div>
+	</div>
+</body>
+</html>
